@@ -1,0 +1,19 @@
+.container-fluid{
+    border:solid;
+}
+
+.col-sm-4, .col-sm-8{
+    border:solid;
+}
+
+#pImage{
+    height:250px;
+    float:left;
+}
+
+#pName{
+    clear:both;
+}
+.contact span{
+    margin:2%;    
+}
