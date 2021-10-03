@@ -1,23 +1,50 @@
 .container-fluid{
-    border:solid;
+    padding:1.5%;
 }
 
-.col-sm-4, .col-sm-8{
-    border:solid;
+.row {
+    width:100%;
+}
+.col-sm-9, .col-sm-3, .col-sm-2{
+    border:solid #2F4F4F;
+}
+
+.col-sm-3{
+    background-color: #F0F8FF;
+}
+
+.col-sm-9 {
+    background-color: #708090;
+    color:#F5FFFA;
+}
+.col-sm-12 {
+    padding:1%;
+    height:2.8em;
+    background-color: #2F4F4F;
+    color:#FFFFFF;
+    border-top:solid;
+}
+span {
+    margin:0% 2% 0% 5%;
+}
+
+span a:link {
+    color:#FFFFFF;
+}
+span.contactWebsite a:hover, span.contactEmail a:hover {
+    color:#87CEFA;
 }
 
 #pImage{
-    height:250px;
+    max-height:250px;
+    max-width:187.5px;
     float:left;
 }
 
-#pName{
+#pName {
     clear:both;
 }
-.contact span{
-    margin:2%;    
-}
 
-p{
-    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+p {
+    font-family: 'Avenir Next', Avenir, SegoeUI, sans-serif;
 }
