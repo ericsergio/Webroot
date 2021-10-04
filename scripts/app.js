@@ -20,5 +20,5 @@ $(window).on("orientationchange load", function(event){
     var names = ['portrait', 'landscape'];
     //Orientation.prototype.newOrientation = new Orientation(getOrientation());
     Orientation.ScreenOrientation = new Orientation(getOrientation());
-    $( "#orientation" ).text( "This device is in " + names[Orientation.ScreenOrientation.id] + " mode!" );
+    $( "#orientation" ).text( names[Orientation.ScreenOrientation.id] + " mode | Width: " + document.body.clientWidth + "px | Height: " + document.body.clientHeight + "px" );
 });
