@@ -1,3 +1,7 @@
+body {
+    background: no-repeat center / 100% url("https://raw.githubusercontent.com/ericsergio/Webroot/gh-pages/img/puzzleBackground.jpeg");
+}
+
 .container-fluid{
     padding:1.5%;
 }
