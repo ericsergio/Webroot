@@ -15,7 +15,7 @@ function getOrientation() {
 };
 //window.onload = getOrientation();
 
-$(window).on("orientationchange", function(event){
+$(window).on("orientationchange load", function(event){
     //$('.col-sm-12').html('<h2>Contact</h2>');
     var names = ['portrait', 'landscape'];
     //Orientation.prototype.newOrientation = new Orientation(getOrientation());
