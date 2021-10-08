@@ -1,0 +1,33 @@
+.container-fluid{
+
+    border:solid;
+}
+
+.col-sm-4, .col-sm-8{
+    border:solid;
+}
+
+.col-sm-12 {
+    
+}
+
+#pImage{
+    max-height:250px;
+    float:left;
+}
+
+#pName {
+    clear:both;
+}
+.contact span{
+    margin:2%;    
+}
+
+p {
+    font-family: 'Avenir Next', Avenir, SegoeUI, sans-serif;
+}
+
+img {
+    max-height:250px;
+    max-width:187.5px;
+}
