@@ -50,5 +50,7 @@ span.contactWebsite a:hover, span.contactEmail a:hover {
 }
 
 p {
-    font-family: 'Avenir Next', Avenir, SegoeUI, sans-serif;
+    font-family: fairplex-wide, serif;
+    font-weight: 400;
+    font-style: normal;
 }

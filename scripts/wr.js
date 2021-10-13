@@ -12,12 +12,14 @@ $(document).ready(function(){
     var audienceText = ['link1AudienceText', 'link2AudienceText', 'link3AudienceText', 'link4AudienceText', 'link5AudienceText']
     var useText = ['link1UseText', 'link2UseText', 'link3UseText', 'link4UseText', 'link5UseText'];
     var ratingVal = ['link1Rating', 'link2Rating', 'link3Rating', 'link4Rating', 'link5Rating'];
+    
     var linkContentArr = [contentText, importanceText, audienceText, useText, ratingVal];
     //var listItems = $('ol').children();
     var counter = 0;
     $('ol li').each(function(){
-        var sublist = `list${counter}`
-        $(this).append(`<ul class="${sublist}"></ul>`);
+        var sublist = `list${counter}`;
+        //var sublist = `sublist`;
+        $(this).append(`<ul class="${sublist}" id=subList></ul>`);
         counter+=1;
         for(var p in linkContentArr){
             $(`.${sublist}`).append(`<li>${linkContentArr[p][counter - 1]}</li>`)
@@ -25,14 +27,29 @@ $(document).ready(function(){
     })
 });
 $(document).ready(function(){
+    //put the links here so that I could reuse this function for a mobile version
+    //while having the hover functionality
+    var linkLocations = [`https://www.w3.org/standards/`,
+    `https://xhr.spec.whatwg.org/`,
+    `http://anh.cs.luc.edu/170/notes/CSharpHtml/genindex.html`, 
+    `https://html.spec.whatwg.org/multipage/`,
+    `http://httpd.apache.org/docs/2.4/` ];
     $('ul').hide();
-    $('ol li').on("mouseover", function(){
-        $(this).children().show();
-        $(this).children().attr('class', 'current');
-        $
-    })
+    $('ol li').hover(function(){
+        $(this).children().fadeIn(600);
+        $(this).css({'text-decoration':'underline'})
+        $(this).click(function(){
+            var path=linkLocations[$(this).index()];
+            window.location.href=path;
+        });
+    },function(){
+        $(this).css({'text-decoration':'none'})
+        $(this).children().last().hide();
+        console.log($(this).children().last());
+    });
 });
-
     $(document).ready(function(){
     $('.container-fluid').css({"margin":"5%"});
+    //$('.topList').css({"display":"grid"})
+                        
 });
