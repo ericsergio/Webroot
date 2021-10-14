@@ -8,9 +8,11 @@ $(document).ready(function(){
                     the ever evolving face of the internet',
                     'Apache Web Server specifications that is very usefull for configuration, security and \
                     much more'];
-    var importanceText = ['link1Importance', 'link2Importance', 'link3Importance', 'link4Importance', 'link5Importance']
-    var audienceText = ['link1AudienceText', 'link2AudienceText', 'link3AudienceText', 'link4AudienceText', 'link5AudienceText']
-    var useText = ['link1UseText', 'link2UseText', 'link3UseText', 'link4UseText', 'link5UseText'];
+    var importanceText = ['This resource allows the public as well as full time dedicated staffers to collaborate \
+                        and standardize the web making the web safer and more accessible', 'link2Importance', 'link3Importance', 'link4Importance', 'link5Importance']
+    var audienceText = ['The target audience for this resource is the general public with an emphasis on the  \
+                        developer community', 'link2AudienceText', 'link3AudienceText', 'link4AudienceText', 'link5AudienceText']
+    var useText = ['Used as a reference or learning tool', 'link2UseText', 'link3UseText', 'link4UseText', 'link5UseText'];
     var ratingVal = ['link1Rating', 'link2Rating', 'link3Rating', 'link4Rating', 'link5Rating'];
     
     var linkContentArr = [contentText, importanceText, audienceText, useText, ratingVal];
