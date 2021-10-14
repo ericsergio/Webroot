@@ -70,7 +70,7 @@ li#topList {
     position:absolute;
     top:30%;
     left:5%;
-    height:50%;
+    height:auto;
     width:55%;
     background-color: #11575C;
     list-style: none;
