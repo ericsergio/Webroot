@@ -1,5 +1,13 @@
 body {
-    background: no-repeat center / 100% url("../img/puzzleBackground.jpeg");
+    background: no-repeat right / 75% url("../img/RCube5.jpg");
+    background-color: #ffffff;
+}
+
+h1{
+    font-family: lust, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#494444;
 }
 
 .container-fluid{
@@ -14,17 +22,21 @@ body {
 }
 
 .col-sm-3{
-    background-color: #F0F8FF;
+    background-color: #ffffff;
+    border:none;
 }
 
 .col-sm-9 {
-    background-color: #708090;
+    background-color: #1F4557;
+    border-radius:4% 4% 4% 4%;
+    opacity:90%;
     color:#F5FFFA;
 }
 .col-sm-12 {
     padding:1%;
+    margin-top: 10%;
     height:2.8em;
-    background-color: #2F4F4F;
+    background-color: #1F4557;
     color:#FFFFFF;
     border-top:solid;
 }
@@ -42,7 +54,7 @@ span.contactWebsite a:hover, span.contactEmail a:hover {
 #pImage{
     max-height:250px;
     max-width:187.5px;
-    float:left;
+    /*float:left;*/
 }
 
 #pName {
@@ -50,5 +62,11 @@ span.contactWebsite a:hover, span.contactEmail a:hover {
 }
 
 p {
-    font-family: 'Avenir Next', Avenir, SegoeUI, sans-serif;
+    /*font-family: fairplex-wide, serif;
+    font-weight: 400;
+    font-style: normal;*/
+    font-family: park-lane,serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
 }

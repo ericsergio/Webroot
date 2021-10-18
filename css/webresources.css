@@ -1,0 +1,85 @@
+    /*
+    Unused but still in project
+
+    font-family: park-lane,serif;
+    font-weight: 300;
+    font-style: normal;
+    
+    font-family: roc-grotesk-condensed,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    */
+
+
+body{
+    background-color: #ffffff;
+}
+h1 {
+    font-family: lust, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#ffffff;
+}
+.container-fluid{
+    width:90%;
+    background-color: #11575C;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus{
+    text-decoration: underline;
+}
+
+#topList {
+    list-style:none;
+    display: grid;
+    grid-template-columns:16% 16% 16% 16% 16%;
+	grid-column-gap: 5%;
+	grid-row-gap: 5%;
+    height:90%;
+    padding: 0;
+    margin:0;
+    background-color: #11575C;
+    overflow: hidden;
+}
+
+li#topList {
+    float:left;    
+    text-transform: uppercase;
+    box-sizing: border-box;
+    
+}
+
+#topList li {    
+    color: #ffffff;
+    /*
+    font-family: roc-grotesk-condensed,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    */
+    font-family: fairplex-wide,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#subList {
+    position:absolute;
+    top:30%;
+    left:5%;
+    height:auto;
+    width:55%;
+    background-color: #11575C;
+    list-style: none;
+}
+
+#subList li {
+    display:block;
+    color:#ffffff;
+    margin-top:3%;
+    width:80%;
+}
+
