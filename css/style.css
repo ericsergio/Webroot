@@ -36,7 +36,7 @@ h1{
     padding:1%;
     margin-top: 10%;
     height:2.8em;
-    background-color: #11575c;
+    background-color: #1F4557;
     color:#FFFFFF;
     border-top:solid;
 }
@@ -62,8 +62,11 @@ span.contactWebsite a:hover, span.contactEmail a:hover {
 }
 
 p {
-    font-family: fairplex-wide, serif;
+    /*font-family: fairplex-wide, serif;
     font-weight: 400;
+    font-style: normal;*/
+    font-family: park-lane,serif;
+    font-weight: 300;
     font-style: normal;
     text-align: justify;
 }
