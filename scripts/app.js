@@ -18,8 +18,16 @@ function getOrientation() {
 
 $(window).on("orientationchange load", function(event){
     //$('.col-sm-12').html('<h2>Contact</h2>');
+    /*if(Orientation.ScreenOrientation.id < 1) {
+        $('#rowDiv').removeClass('row');
+    } else {
+        if(!($('#rowDiv').hasClass('row'))) {
+            $('#rowDiv').addClass('row');
+        }
+    }*/
     var names = ['portrait', 'landscape'];
     //Orientation.prototype.newOrientation = new Orientation(getOrientation());
     Orientation.ScreenOrientation = new Orientation(getOrientation());
-    $( "#orientation" ).text( names[Orientation.ScreenOrientation.id] + " mode | Width: " + document.body.clientWidth + "px | Height: " + document.body.clientHeight + "px" );
+    //$( "#orientation" ).text( names[Orientation.ScreenOrientation.id] + " mode | Width: " + document.body.clientWidth + "px | Height: " + document.body.clientHeight + "px" );
+    $( "#orientation" ).text( `${names[Orientation.ScreenOrientation.id]}:${Orientation.ScreenOrientation.id} mode | Width: ${document.body.clientWidth} px | Height: ${document.body.clientHeight} px` );
 });
