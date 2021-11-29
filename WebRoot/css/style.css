@@ -1,0 +1,78 @@
+body {
+    background: no-repeat right / 75% url("../img/RCube5.jpg");
+    background-color: #ffffff;
+}
+
+h1{
+    font-family: lust, serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#494444;
+}
+
+.container-fluid{
+    padding:1.5%;
+}
+
+#navBar {
+    display:inline;
+}
+.d-inline-block{
+    width:25%;
+}
+.row {
+    width:100%;
+}
+.col-sm-9, .col-sm-3, .col-sm-2{
+    border:solid #2F4F4F;
+}
+
+.col-sm-3{
+    background-color: #ffffff;
+    border:none;
+}
+
+.col-sm-8 {
+    background-color: #1F4557;
+    border-radius:4% 4% 4% 4%;
+    opacity:90%;
+    color:#F5FFFA;
+}
+.col-sm-12 {
+    padding:1%;
+    margin-top: 10%;
+    height:2.8em;
+    background-color: #1F4557;
+    color:#FFFFFF;
+    border-top:solid;
+}
+span {
+    margin:0% 2% 0% 5%;
+}
+
+span a:link {
+    color:#FFFFFF;
+}
+span.contactWebsite a:hover, span.contactEmail a:hover {
+    color:#87CEFA;
+}
+
+#pImage{
+    max-height:250px;
+    max-width:187.5px;
+    /*float:left;*/
+}
+
+#pName {
+    clear:both;
+}
+
+p {
+    /*font-family: fairplex-wide, serif;
+    font-weight: 400;
+    font-style: normal;*/
+    font-family: park-lane,serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: justify;
+}
